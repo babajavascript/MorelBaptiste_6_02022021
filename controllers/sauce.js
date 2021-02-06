@@ -51,7 +51,7 @@ exports.getOneSauce = (req, res, next) => {
 };
 
 
-//////////////////////////////////////////PARTIE LIKE ET DISLIKE////////////////////////////
+// like & dislike //
 
 exports.likeSauces = (req, res, next) => {
     if (req.body.like == 1) {
